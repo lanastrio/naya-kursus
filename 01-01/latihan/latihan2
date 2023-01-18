@@ -1,0 +1,18 @@
+﻿package main
+import(
+"bufio"
+"fmt"
+"log"
+"os"
+"strings"
+)
+func main(){
+fmt.Print("sopo jenengmu cok: ")
+read := bufio.NewReader(os.Stdin)
+name, err := read.ReadString('\n')
+if err != nil {
+log.Fatal(err)
+}
+fmt.Printf("jancok we r%s!\n", strings.TrimSpace(name))
+}
+
