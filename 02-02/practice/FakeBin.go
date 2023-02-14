@@ -14,6 +14,6 @@ func FakeBin(x string) string {
 	return result
 }
 
-func main() {
+func main(){
 	fmt.Println(FakeBin("45385593107843568"))
 }

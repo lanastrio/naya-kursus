@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func century(year int) int {
+func century(year int)int{
 	if year%100 == 0 {
 		return year / 100
 	}

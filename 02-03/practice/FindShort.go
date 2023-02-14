@@ -12,6 +12,7 @@ func FindShort(s string) int {
 		if len(word) < minLength {
 			minLength = len(word)
 		}
+		
 	}
 	return minLength
 }

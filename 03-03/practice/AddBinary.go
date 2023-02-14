@@ -1,4 +1,5 @@
 package main
+
 import
 "fmt"
 func addBinary(a string, b string) string {

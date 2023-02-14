@@ -6,6 +6,6 @@ func RemoveChar(word string) string {
 	return word[1 : len(word)-1]
 }
 
-func main() {
+func main(){
 	fmt.Println(RemoveChar("Hello World"))
 }

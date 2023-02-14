@@ -8,6 +8,7 @@ import (
 
 func ReverseWords(str string) (result string) {
 strs := strings.Fields(str)
+
 for _, value := range strs {
 result = value + " " + result
 }

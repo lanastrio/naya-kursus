@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func CountBy(x, n int) []int {
+func CountBy(x,n int) []int {
 	var res []int
 	for i := 1; i <= n; i++ {
 		res = append(res, x*i)
